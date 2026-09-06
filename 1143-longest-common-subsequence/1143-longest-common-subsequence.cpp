@@ -7,11 +7,14 @@ class Solution {
         if(dp[idx1][idx2]!=-1) return dp[idx1][idx2];
 
         int match = 0;
-        if(text1[idx1]==text2[idx2]) match = 1+dfs(idx1-1,idx2-1,text1,text2,dp);
+        if(text1[idx1]==text2[idx2]){
+            match = 1+dfs(idx1-1,idx2-1,text1,text2,dp);
+            return dp[idx1][idx2] = match;
+        }
 
         int notMatch = max(dfs(idx1-1,idx2,text1,text2,dp),dfs(idx1,idx2-1,text1,text2,dp));
+        return dp[idx1][idx2] = notMatch;
 
-        return dp[idx1][idx2] = max(match,notMatch);
     }
 
 public:
