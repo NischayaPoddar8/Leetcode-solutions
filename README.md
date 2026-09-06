@@ -1,2 +1,2 @@
 # DSA-practice
-Solutions to LeetCode and GeeksforGeeks problems.
+Solutions to LeetCode problems.
