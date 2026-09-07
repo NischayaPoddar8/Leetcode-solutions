@@ -6,10 +6,12 @@ Solutions to LeetCode problems.
 ## String
 |  |
 | ------- |
+| [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 ## Longest Common Subsequence
 |  |
