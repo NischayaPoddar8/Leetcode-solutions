@@ -25,22 +25,20 @@ public:
         
         int m = s.size();
         int n = t.size();
-        vector<vector<unsigned long long>>dp(m+1,vector<unsigned long long>(n+1,0));
+        vector<double>prev(n+1,0);
 
-        for(int i=0;i<=m;i++){
-            dp[i][0] = 1;
-        }
+        prev[0] = 1;
 
         for(int i=1;i<=m;i++){
-            for(int j=1;j<=n;j++){
+            for(int j=n;j>=1;j--){
 
-                unsigned long long pick = 0;
-                unsigned long long notPick = dp[i-1][j];
+                double pick = 0;
+                double notPick = prev[j];
 
-                if(s[i-1]==t[j-1]) pick = dp[i-1][j-1];
-                dp[i][j] = pick+notPick;
+                if(s[i-1]==t[j-1]) pick = prev[j-1];
+                prev[j] = pick+notPick;
             }
         }
-        return dp[m][n];
+        return prev[n];
     }
 };
