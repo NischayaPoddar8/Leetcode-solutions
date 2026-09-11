@@ -32,6 +32,7 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Math
 |  |
 | ------- |
@@ -44,4 +45,12 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
+## Graph Theory
+|  |
+| ------- |
+| [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
+## Matrix
+|  |
+| ------- |
+| [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
 <!---LeetCode Topics End-->
