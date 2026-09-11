@@ -32,4 +32,16 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
+## Math
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
