@@ -6,6 +6,7 @@ Solutions to LeetCode problems.
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
@@ -15,6 +16,7 @@ Solutions to LeetCode problems.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
 | [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
