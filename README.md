@@ -58,4 +58,8 @@ Solutions to LeetCode problems.
 | ------- |
 | [1463-cherry-pickup-ii](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
