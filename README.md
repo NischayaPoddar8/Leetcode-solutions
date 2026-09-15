@@ -48,6 +48,7 @@ Solutions to LeetCode problems.
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
 ## Graph Theory
 |  |
@@ -61,6 +62,7 @@ Solutions to LeetCode problems.
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
