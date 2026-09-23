@@ -99,6 +99,7 @@ Solutions to LeetCode problems.
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 ## Divide and Conquer
 |  |
@@ -112,4 +113,16 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0148-sort-list) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
