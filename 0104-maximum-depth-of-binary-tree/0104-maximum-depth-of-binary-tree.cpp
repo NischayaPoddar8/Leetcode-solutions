@@ -17,15 +17,15 @@ class Solution {
 
         int leftDepth = 0;
         int rightDepth = 0;
-        if(root->left)  leftDepth = 1+dfs(root->left);
-        if(root->right) rightDepth = 1+dfs(root->right);
+        if(root->left)  leftDepth = dfs(root->left);
+        if(root->right) rightDepth = dfs(root->right);
 
-        return max(leftDepth,rightDepth);
+        return 1+(max(leftDepth,rightDepth));
     }
 
 public:
     int maxDepth(TreeNode* root) {
         if(root==NULL) return 0;
-        return 1+dfs(root);
+        return dfs(root);
     }
 };
