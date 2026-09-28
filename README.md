@@ -19,6 +19,7 @@ Solutions to LeetCode problems.
 | [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [1092-shortest-common-supersequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
@@ -123,6 +124,7 @@ Solutions to LeetCode problems.
 | [0102-binary-tree-level-order-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -133,6 +135,7 @@ Solutions to LeetCode problems.
 | [0100-same-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -144,6 +147,7 @@ Solutions to LeetCode problems.
 | [0102-binary-tree-level-order-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -156,5 +160,6 @@ Solutions to LeetCode problems.
 ## DP on Trees
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
