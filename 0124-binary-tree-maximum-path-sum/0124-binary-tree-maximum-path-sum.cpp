@@ -17,16 +17,13 @@ class Solution {
 
         if(!node) return 0;
 
-        int leftSum = 0;
-        if(node->left)leftSum = dfs(node->left);
+        int leftSum = max(0,dfs(node->left)); // if no node exists leftSum is set 0
 
-        int rightSum = 0;
-        if(node->right) rightSum = dfs(node->right);
+        int rightSum = max(0,dfs(node->right));
 
-        maxi = max({maxi,node->val+leftSum+rightSum,node->val,node->val+leftSum,node->val+rightSum});
+        maxi = max(maxi,node->val+leftSum+rightSum);
 
-        if(leftSum>0 || rightSum>0) return node->val + max(leftSum,rightSum);
-        return node->val;
+        return node->val+max(leftSum,rightSum);
     }
 
 
