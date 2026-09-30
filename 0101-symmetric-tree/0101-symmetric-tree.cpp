@@ -16,30 +16,21 @@ public:
         if(!root->left && !root->right) return true;
         if(!root->left || !root->right) return false;
         if(root->left->val != root->right->val) return false;
-        
+
         queue<pair<TreeNode*,TreeNode*>>q;
         q.push({root->left,root->right});
 
         while(!q.empty()){
-            int s = q.size();
 
-            for(int i=0;i<s;i++){
-                TreeNode* node1 = q.front().first;
-                TreeNode* node2 = q.front().second;
-                q.pop();
+            auto [node1,node2] = q.front();
+            q.pop();
 
-                if(node1->left && node2->right){
-                    if(node1->left->val != node2->right->val) return false;
-                    else q.push({node1->left,node2->right});
-                }
-                else if((node1->left && !node2->right) || (!node1->left && node2->right)) return false;
+            if(!node1 && !node2) continue;
+            if(!node1 || !node2) return false;
+            if(node1->val != node2->val) return false;
 
-                if(node1->right && node2->left){
-                    if(node1->right->val != node2->left->val) return false;
-                    else q.push({node1->right,node2->left});
-                }
-                else if((node1->right && !node2->left) || (!node1->right && node2->left)) return false;
-            }
+            q.push({node1->left,node2->right});
+            q.push({node1->right,node2->left});
         }
 
         return true;
