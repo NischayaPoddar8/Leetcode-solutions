@@ -10,16 +10,38 @@
  * };
  */
 class Solution {
-
-    bool dfs(TreeNode* node1, TreeNode* node2){
-        if(!node1 && !node2) return true;
-        if(!node1 || !node2) return false;
-
-        return ((node1->val == node2->val) && dfs(node1->left,node2->right) && dfs(node1->right,node2->left));
-    }
-
 public:
     bool isSymmetric(TreeNode* root) {
-        return dfs(root->left,root->right);
+
+        if(!root->left && !root->right) return true;
+        if(!root->left || !root->right) return false;
+        if(root->left->val != root->right->val) return false;
+        
+        queue<pair<TreeNode*,TreeNode*>>q;
+        q.push({root->left,root->right});
+
+        while(!q.empty()){
+            int s = q.size();
+
+            for(int i=0;i<s;i++){
+                TreeNode* node1 = q.front().first;
+                TreeNode* node2 = q.front().second;
+                q.pop();
+
+                if(node1->left && node2->right){
+                    if(node1->left->val != node2->right->val) return false;
+                    else q.push({node1->left,node2->right});
+                }
+                else if((node1->left && !node2->right) || (!node1->left && node2->right)) return false;
+
+                if(node1->right && node2->left){
+                    if(node1->right->val != node2->left->val) return false;
+                    else q.push({node1->right,node2->left});
+                }
+                else if((node1->right && !node2->left) || (!node1->right && node2->left)) return false;
+            }
+        }
+
+        return true;
     }
 };
