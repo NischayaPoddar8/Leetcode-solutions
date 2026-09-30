@@ -13,10 +13,6 @@ class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
 
-        if(!root->left && !root->right) return true;
-        if(!root->left || !root->right) return false;
-        if(root->left->val != root->right->val) return false;
-
         queue<pair<TreeNode*,TreeNode*>>q;
         q.push({root->left,root->right});
 
