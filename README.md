@@ -55,6 +55,7 @@ Solutions to LeetCode problems.
 ## Graph Theory
 |  |
 | ------- |
+| [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Matrix
 |  |
@@ -145,6 +146,7 @@ Solutions to LeetCode problems.
 | [0145-binary-tree-postorder-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 ## Binary Tree
 |  |
 | ------- |
@@ -170,6 +172,7 @@ Solutions to LeetCode problems.
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 ## DP on Trees
 |  |
 | ------- |
@@ -179,4 +182,16 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
+## Union-Find
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+## Graph Coloring
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
