@@ -24,7 +24,26 @@ public:
         vector<vector<int>>dp(m,vector<int>(n,INT_MAX));
 
         for(int j=0;j<n;j++){
-            ans = min(ans,dfs(matrix,dp,0,j));
+            dp[0][j] = matrix[0][j];
+        }
+
+        for(int i=1;i<m;i++){
+            for(int j=0;j<n;j++){
+
+                int upLeft = INT_MAX;
+                if(j-1>=0) upLeft = dp[i-1][j-1];
+
+                int up = dp[i-1][j];
+
+                int upRight = INT_MAX;
+                if(j+1<n) upRight = dp[i-1][j+1];
+
+                dp[i][j] = matrix[i][j] + min({upLeft,up,upRight});
+            } 
+        }
+
+        for(int j=0;j<m;j++){
+            ans = min(ans,dp[n-1][j]);
         }
 
         return ans;
