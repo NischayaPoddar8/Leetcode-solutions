@@ -22,6 +22,7 @@ Solutions to LeetCode problems.
 | [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
+| [0931-minimum-falling-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1092-shortest-common-supersequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -36,6 +37,7 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
+| [0931-minimum-falling-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1463-cherry-pickup-ii](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Math
@@ -60,6 +62,7 @@ Solutions to LeetCode problems.
 ## Matrix
 |  |
 | ------- |
+| [0931-minimum-falling-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1463-cherry-pickup-ii](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Linked List
