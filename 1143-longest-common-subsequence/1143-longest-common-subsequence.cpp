@@ -1,34 +1,32 @@
 class Solution {
 
-    int dfs(int idx1,int idx2,string &text1,string &text2,vector<vector<int>>&dp){
 
-        if(idx1<0 || idx2<0) return 0;
+    int dfs(string &text1,string &text2,int i,int j,vector<vector<int>>&dp){
 
-        if(dp[idx1][idx2]!=-1) return dp[idx1][idx2];
+        if(i<0 || j<0) return 0;
+
+        if(dp[i][j]!=-1) return dp[i][j];
 
         int match = 0;
-        if(text1[idx1]==text2[idx2]){
-            match = 1+dfs(idx1-1,idx2-1,text1,text2,dp);
-            return dp[idx1][idx2] = match;
-        }
+        if(text1[i]==text2[j]) match = 1+dfs(text1,text2,i-1,j-1,dp);
 
-        int notMatch = max(dfs(idx1-1,idx2,text1,text2,dp),dfs(idx1,idx2-1,text1,text2,dp));
-        return dp[idx1][idx2] = notMatch;
+        int notMatch = 0;
+        notMatch = max(dfs(text1,text2,i-1,j,dp),dfs(text1,text2,i,j-1,dp));
 
+        return dp[i][j] = max(match,notMatch);
     }
 
 public:
     int longestCommonSubsequence(string text1, string text2) {
-        int m = text1.size();
-        int n = text2.size();
-        vector<vector<int>>dp(m+1,vector<int>(n+1,0));
 
-        for(int idx1=1;idx1<=m;idx1++){
-            for(int idx2=1;idx2<=n;idx2++){
-                if(text1[idx1-1]==text2[idx2-1]) dp[idx1][idx2] = 1+dp[idx1-1][idx2-1];
-                else dp[idx1][idx2] = max(dp[idx1-1][idx2],dp[idx1][idx2-1]);
-            }
-        }
-        return dp[m][n];
+        int s = text1.size();
+        int i = s-1;
+        int t = text2.size();
+        int j = t-1;
+
+        vector<vector<int>>dp(s,vector<int>(t,-1));
+        return dfs(text1,text2,i,j,dp);
+
+
     }
 };
