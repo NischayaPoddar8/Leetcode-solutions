@@ -6,6 +6,7 @@ Solutions to LeetCode problems.
 ## String
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
@@ -16,6 +17,7 @@ Solutions to LeetCode problems.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
@@ -51,6 +53,7 @@ Solutions to LeetCode problems.
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
@@ -200,4 +203,8 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
