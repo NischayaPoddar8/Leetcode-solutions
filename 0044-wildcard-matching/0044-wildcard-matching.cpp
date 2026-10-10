@@ -1,40 +1,40 @@
 class Solution {
 
-    bool solve(string &s1,string &s2,int i,int j,vector<vector<int>>&dp){
-
-        if(i<0){
-            while(j>=0){
-                if(s2[j]!='*') return false;
-                j--;
-            }
-            return true;
-        }
-
-        if(j<0) return false;
-
-        if(dp[i][j]!=-1) return dp[i][j];
-
-        if(s2[j]=='*'){
-
-            bool take = solve(s1,s2,i-1,j,dp);
-            bool skip = solve(s1,s2,i,j-1,dp);
-
-            return dp[i][j] = (take||skip);
-        }
-
-        if(s1[i]==s2[j] || s2[j]=='?') return dp[i][j] = true && solve(s1,s2,i-1,j-1,dp);
-
-        return false;
-    }
-
 public:
     bool isMatch(string s, string p) {
         
         int m = s.size();
         int n = p.size();
 
-        vector<vector<int>>dp(m,vector<int>(n,-1));
+        vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
 
-        return solve(s,p,m-1,n-1,dp);
+        dp[0][0] = 1; // If both are empty they can match
+
+        for(int j=1;j<=n;j++){ // Can pattern p match empty string s
+            if(p[j-1]=='*'){
+                dp[0][j] = dp[0][j-1]; // If something else is before *
+            }
+            else dp[0][j] = 0;
+        }
+        
+        for(int i=1;i<=m;i++){ // Empty pattern cant match string s
+            dp[i][0] = 0;
+        }
+
+        for(int i=1;i<=m;i++){
+            for(int j=1;j<=n;j++){
+                if(p[j-1]=='*'){
+                    bool take = dp[i-1][j];
+                    bool skip = dp[i][j-1];
+                    dp[i][j] = (take||skip);
+                }
+                else{
+                    if(s[i-1]==p[j-1] || p[j-1]=='?') dp[i][j] = dp[i-1][j-1];
+                    else dp[i][j] = 0;
+                }
+            }
+        }
+
+        return dp[m][n];
     }
 };
