@@ -21,6 +21,7 @@ Solutions to LeetCode problems.
 | [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
@@ -39,6 +40,7 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0931-minimum-falling-path-sum](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1463-cherry-pickup-ii](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/3898-find-the-degree-of-each-vertex) |
