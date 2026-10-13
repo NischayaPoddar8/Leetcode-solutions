@@ -18,6 +18,7 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
+| [0062-unique-paths](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0120-triangle) |
@@ -49,6 +50,7 @@ Solutions to LeetCode problems.
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0062-unique-paths) |
 | [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
 ## Bit Manipulation
 |  |
@@ -212,4 +214,8 @@ Solutions to LeetCode problems.
 | ------- |
 | [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
