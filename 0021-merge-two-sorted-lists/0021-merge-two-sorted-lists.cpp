@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode dummy; // temporary list to store sorted list
+        ListNode dummy; 
         ListNode* temp = &dummy;
         dummy.next = NULL;
         while(list1!=NULL&&list2!=NULL){
