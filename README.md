@@ -63,6 +63,7 @@ Solutions to LeetCode problems.
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0044-wildcard-matching](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0231-power-of-two) |
@@ -83,6 +84,7 @@ Solutions to LeetCode problems.
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0021-merge-two-sorted-lists](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/NischayaPoddar8/Leetcode-solutions/tree/master/0148-sort-list) |
